@@ -7,7 +7,17 @@
     @apply border-b-4 pb-2 border-orange-400;
   }
 
+  .hero-bg {
+    background-image: url(../src/assets/frontend_assets/header_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .btn-primary {
     @apply px-3 md:px-10 py-2 bg-orange-400 text-white border-2 rounded-full hover:bg-white hover:border-orange-400 hover:text-orange-400;
+  }
+
+  .btn-secondary {
+    @apply px-3 md:px-10 py-2 bg-white text-gray-800 border-2 rounded-full hover:bg-white hover:border-white hover:text-orange-400;
   }
 }

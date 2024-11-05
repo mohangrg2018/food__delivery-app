@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .navlink .active {
+    @apply border-b-4 pb-2 border-orange-400;
+  }
+
+  .btn-primary {
+    @apply px-3 md:px-10 py-2 bg-orange-400 text-white border-2 rounded-full hover:bg-white hover:border-orange-400 hover:text-orange-400;
+  }
+}

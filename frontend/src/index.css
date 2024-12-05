@@ -20,4 +20,12 @@
   .btn-secondary {
     @apply px-3 md:px-10 py-2 bg-white text-gray-800 border-2 rounded-full hover:bg-white hover:border-white hover:text-orange-400;
   }
+
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl font-medium;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

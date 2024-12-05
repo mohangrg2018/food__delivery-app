@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="container h-[65vh] sm:h-[70vh] lg:h-[80vh] mt-4">
-      <div className="hero-bg rounded-xl h-full text-white flex flex-col gap-7 pl-8 pt-[20%] sm:pt-[25%] lg:pt-[20%]">
+    <section className="container lg:h-[80vh] mt-4 ">
+      <div className="hero-bg rounded-xl h-full text-white flex flex-col gap-7 pl-8 pt-[20%] pb-5">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
           Order your
           <br /> favourite food here
         </h1>
-        <p className="sm:w-[80%]">
+        <p className="md:w-[80%]">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque,
           recusandae voluptatibus. Facilis dolorem, beatae quisquam id
           repellendus, reprehenderit mollitia necessitatibus nihil quaerat
